@@ -8,4 +8,41 @@ header {
     text-align: center;
 
 }
-
+.border{
+    border: black 5px solid;
+}
+#our_story{
+    grid-column: 1/6;
+    grid-row: 3/5;
+    margin-left: 8px;
+}
+#contact_info{
+    grid-column: 6/11;
+    grid-row: 3/5;
+    margin-right: 8px;
+}
+#meet_chef{
+    grid-column: 1/11;
+    grid-row: 5/7;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#location{
+    grid-column: 1/6;
+    grid-row: 7/9;
+    margin-left: 8px;
+}
+#dates{
+    grid-column: 6/11;
+    grid-row: 7/9;
+    margin-right: 8px;
+}
+#nav_au{
+    grid-row: 2/3;
+    grid-column: 1/11;
+    background-color: blue;
+}
+#about_us{
+    grid-column: 1/11;
+    grid-row: 1/2;
+}
