@@ -4,45 +4,52 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     
 }
+Nav{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    height: auto;
+    margin-bottom: 8px;
+}
+Nav a{
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    float: left;
+    padding: 18px 16px;
+    display: block;
+    text-align: center;
+}
 header {
     text-align: center;
 
 }
 .border{
     border: black 5px solid;
+    border-radius: 10px;
 }
 #our_story{
     grid-column: 1/6;
-    grid-row: 3/5;
-    margin-left: 8px;
+    grid-row: 1/3;
 }
 #contact_info{
     grid-column: 6/11;
-    grid-row: 3/5;
-    margin-right: 8px;
+    grid-row: 1/3;
 }
 #meet_chef{
     grid-column: 1/11;
-    grid-row: 5/7;
-    margin-left: 8px;
-    margin-right: 8px;
+    grid-row: 3/5;
 }
 #location{
     grid-column: 1/6;
-    grid-row: 7/9;
-    margin-left: 8px;
+    grid-row: 5/7;
 }
 #dates{
     grid-column: 6/11;
-    grid-row: 7/9;
-    margin-right: 8px;
+    grid-row: 5/7;
 }
-#nav_au{
-    grid-row: 2/3;
-    grid-column: 1/11;
-    background-color: blue;
-}
-#about_us{
-    grid-column: 1/11;
+#nav1{
+    grid-column: 1/2;
     grid-row: 1/2;
 }
