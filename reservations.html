@@ -5,20 +5,18 @@
     <script src="js/init.js"></script>
     <link rel="stylesheet" href="style.css"> 
     <style>
-#grid{
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-columns: repeat(10, 1fr);
-    display: grid;
-    height: 110vh;
-    gap: 10px;
-}
 body{
     margin: 8px;
+}
+input{
+    width: 75%;
+    padding: 15px 15px;
+    margin: 10px;
 }
     </style>
 </head>
 <body>
-<h1 id="about_us" style="text-align: center; font-size: 55px;">About Us</h1>
+<h1 id="about_us" style="text-align: center; font-size: 55px;">Reservations</h1>
 <Nav>
     <a href="index.html" id="nav1" class="border">Home</a>
     <a href="menu/index.html" id="nav2" class="border">Menu</a>
@@ -27,14 +25,13 @@ body{
     <a href="reservations.html" id="nav5" class="border">Reservations</a>
     <a href="#" id="nav6" class="border">Contact Us</a>
     <a href="#" id="nav7" class="border">Rate Us</a>
-    <a href="#" id="nav8" class="border">Online Ordering</a>
+    <a href="#" id="nav8" class="border">Online Ordering</a>                                                                                                                                            
 </Nav>
-    <div id="grid">
-	<div id="our_story" class="border"></div>
-	<div id="contact_info" class="border"></div>
-	<div id="meet_chef" class="border"></div>
-	<div id="location" class="border"></div>
-	<div id="dates" class="border"></div>
-    </div>
+<body>
+    <form action="reservations.html" method="POST">
+	<label for="name">What is your Name</label>
+	<br>
+	<input type="text" id="name" name="name" required>
+    </form>
 </body>
-<html>
+
