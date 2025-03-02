@@ -4,7 +4,50 @@
     <title>Home page</title>
     <script src="js/init.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+<style>
+h1{
+    text-align: center;    
+}
+.grid{
+    display:grid;
+    grid-template-rows: repeat(14,1fr);
+    grid-template-columns: repeat(19,1fr);
+    gap: 8px;
+}
+#image{
+    grid-area: 1/5/10/10;
+	
+}
+#btaco{
+width: 16vw;
+}
+#salmon{
+width: 16vw;
+}
+#tender{
+width: 16vw;
+}
+#tuscan{
+width: 16vw;
+}
+#bangc{
+width: 16vw;
+}
+#drink{
+width:16vw;
+}
+#text{
+grid-area: 11/1/20/20;
+Background-color: pink;
+}
+.bar{
+ background-color: purple;
+ height: 50px;
+}
+#bar2{
+grid-area: 10/1/12/20;
+}
+    </style>
 </head>
 <body>
 <Nav>
@@ -18,16 +61,13 @@
                                                                                                                                         
 </Nav>
 <header>
-	<img id="logo"src="images/offthepike_logo.png" alt="logo">
-	<a href="about-us.html">About us</a>
-	<a href="menu/index.html">menu</a>
 	<h1>Off The Pike</h1>
 	<div class="bar"> </div>
 </header>
 <main>
     <div id="H_grid">
         <div id="H_imgDiv"> 
-            <img id="H_image" src="https://accchronicle.net/wp-content/uploads/2023/12/IMG_0371.jpg" alt="Off the pike chefs">
+            <img id="image" src="https://accchronicle.net/wp-content/uploads/2023/12/IMG_0371.jpg" alt="Off the pike chefs">
         </div>
         <div id=bar2 class=bar></div>   
 	    <div id="text">
