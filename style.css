@@ -37,13 +37,36 @@ Nav a{
 }
 #H_imgDiv{
     grid-area: 1/5/10/10;
-    text-align: center;
-}
-#H_image {
 
 }
 #H_text{
-    grid-area: 10/1/19/19;
+    grid-area: 11/1/20/20;
+    Background-color: pink;
+}
+#btaco{
+    width: 16vw;
+}
+#salmon{
+    width: 16vw;
+}
+#tender{
+    width: 16vw;
+}
+#tuscan{
+    width: 16vw;
+}
+#bangc{
+    width: 16vw;
+}
+#drink{
+    width:16vw;
+}
+.bar{
+    background-color: purple;
+    height: 50px;
+}
+#bar2{
+    grid-area: 10/1/12/20;
 }
 
 
