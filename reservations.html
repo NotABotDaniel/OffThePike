@@ -9,9 +9,18 @@ body{
     margin: 8px;
 }
 input{
-    width: 75%;
+    width: 100%;
     padding: 15px 15px;
     margin: 10px;
+}
+#grid{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: auto;
+    display: grid;
+}
+footer{
+    text-align: center;
 }
     </style>
 </head>
@@ -34,6 +43,22 @@ input{
 	<label for="name">What is your Name</label>
 	<br>
 	<input type="text" id="name" name="name" required>
+	<br>
+	<label for=text>What Is your Phone Number?</label>
+	<br>
+	<input type="tel" id="text" name="phone_number" required>
+	<br>
+	<label for="time">What Time Do you want?</label>
+	<br>
+	<input type="time" name="time" id="time" required>
+	<br>
+	<label for="people">How Many people are you taking?</label>
+	<br>
+	<input type="number" id="people" name="people_coming" required>
+	<br>
+	<label for="extra">Any extra Information we need to know?</label>
+	<br>
+	<input type="text" id="extra" name="extra_info">
     </form>
 </main>
 </body>
