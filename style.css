@@ -129,3 +129,21 @@ h2{
     border: black 5px solid;
     border-radius: 7px;
 }
+
+
+/* css for News and Events page*/
+
+.News_Events_container {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ height: 100vh;  /* gives full viewport height*/
+}
+
+.News_Events_box{
+ padding: 20px;
+ border-radius: 1px solid;
+ overflow: auto; /* top handle any overflowing conetnt*/ 
+}
+
+/* End off css for News and Events page*/
