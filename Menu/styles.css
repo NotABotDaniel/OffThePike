@@ -1,13 +1,10 @@
-body {
-    
-}
 header {
     text-align: center;
     font-size: 3em;
     height: 2.5em;
 
 }
-nav {
+#M_nav {
     display:grid;
 	grid-template-rows:1fr;
 	grid-template-columns: repeat(4, 1fr);

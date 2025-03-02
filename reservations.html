@@ -5,60 +5,60 @@
     <script src="js/init.js"></script>
     <link rel="stylesheet" href="style.css"> 
     <style>
-body{
-    margin: 8px;
-}
 input{
-    width: 100%;
-    padding: 15px 15px;
-    margin: 10px;
-}
-#grid{
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 4fr 1fr;
-    height: auto;
-    display: grid;
-}
-footer{
-    text-align: center;
+    width: 92%;
+    height: 3em;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
     </style>
 </head>
 <body>
-<h1 id="about_us" style="text-align: center; font-size: 55px;">Reservations</h1>
 <Nav>
     <a href="index.html" id="nav1" class="border">Home</a>
     <a href="menu/index.html" id="nav2" class="border">Menu</a>
     <a href="about-us.html" id="nav3" class="border">About Us</a>
-    <a href="#" id="nav4" class="border">News and Updates</a>
+    <a href="#" id="nav4" class="border">News</a>
     <a href="reservations.html" id="nav5" class="border">Reservations</a>
     <a href="#" id="nav6" class="border">Contact Us</a>
-    <a href="#" id="nav7" class="border">Rate Us</a>
-    <a href="#" id="nav8" class="border">Online Ordering</a>                                                                                                                                            
+    <a href="Rate-us.html" id="nav7" class="border">Rate Us</a>
+                                                                                                                                          
 </Nav>
-<body>
-    <div id="grid">
-    <form action="reservations.html" method="POST" style="grid-column: 2/3">
-	<label for="name">What is your Name?</label>
-	<br>
-	<input type="text" id="name" name="name" required>
-	<br>
-	<label for=text>What Is your Phone Number?</label>
-	<br>
-	<input type="tel" id="text" name="phone_number" required>
-	<br>
-	<label for="time">What Time Do you want?</label>
-	<br>
-	<input type="time" name="time" id="time" required>
-	<br>
-	<label for="people">How Many people are you taking?</label>
-	<br>
-	<input type="number" id="people" name="people_coming" required>
-	<br>
-	<label for="extra">Any extra Information we need to know?</label>
-	<br>
-	<input type="text" id="extra" name="extra_info">
+<header>
+    <h1 id="about_us">Reservations</h1>
+</header>
+<main>
+
+    <h2>Reserve a time slot here:</h2>
+
+    <form action="reservations.html" method="POST">
+        <label for="name">What is your Name</label>
+    	<input type="text" id="name" name="name" required>
+
+    	<br>
+    	<label for=text>What Is your Phone Number?</label>
+    	<input type="tel" id="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone_number" required>
+
+    	<br>
+    	<label for="time">What Time Do you want?</label>
+    	<input type="time" name="time" id="time" required>
+
+    	<br>
+    	<label for="people">How Many people are you taking?</label>
+    	<input type="number" id="people" name="people_coming" required>
+
+    	<br>
+    	<label for="extra">Any extra Information we need to know?</label>
+    	<input type="text" id="extra" name="extra_info">
     </form>
-    </div>
+
+    <h3>If you would like to change or update your reservation, click <a href="update-reservation.html">here</a>.</h3>
+</main>
+<footer>
+    <br>
+</footer>
 </body>
+</html>
 
