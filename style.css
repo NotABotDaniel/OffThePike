@@ -142,7 +142,10 @@ h2{
 
 .News_Events_box{
  padding: 20px;
- border-radius: 1px solid;
+ border: black 8px solid;
+ border-radius: 8px;
+ gap: 10px;
+ margin: 5px;
  overflow: auto; /* top handle any overflowing conetnt*/ 
 }
 
