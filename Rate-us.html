@@ -34,27 +34,27 @@
 	<form action="https://httpbin.org/post" method="post">
 	<label for="name">What is your Name</label>
 	<br>
-	<input type="text" id="name" name="name">
+	<input type="text" id="name" name="name" placeholder="your name">
 	<br>
 	<label for="email">What is your email address?</label>
 	<br>
-	<input type="email" id="email" name="email">
+	<input type="email" id="email" name="email" placeholder="your email">
 	<br>
 	<label for="phone">What is your phone number?</label>
 	<br>
-	<input type="tel" id="phone" name="phone">
+	<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone_number">
 	<br>
 	 <label for="date">What day did you visit</label>
 	<br>
-	<input type="date" id="date" name="date">
+	<input type="date" id="date" name="date" placeholder="the date you visited">
 	<br>
 	 <label for="number">What do you rate your exprience out of 10</label>
 	<br>
-	<input type="number" id="number" name="number">
+	<input type="number" id="number" name="number" placeholder="your rating" required>
 	<br>
 	<label for="other">is there any thing else you would like to say</label>
 	<br>
-	<input type="text" id="other" name="other">
+	<input type="text" id="other" name="other" placeholder="other">
 	<br>
 	<input type="submit" name="submit">
 	</form>
