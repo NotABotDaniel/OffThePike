@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
     <title>Off the Pike</title> 
-    <script src="js/init.js"></script>
+    <script src="../js/init.js"></script>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+main {
+    display:grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(4, 1fr);
 
+}
+    </style>
 </head>
 <body>
 <Nav>
@@ -30,23 +37,21 @@
 
 </div>
 <main>
-    <div id="div1" class="menuItem">
-        <h4>Dish 1</h4>
+    <div id="divL1" class="menuItem left">
+        <h2>Cookies and Cream</h2>
+        <p>Fresh baked chocolate chip cookies topped with vanilla ice cream and chocolate drizzle</p>
+        <p>$3.50</p>
     </div>
-    <div id="div2" class="menuItem">
-        <h4>Dish 2</h4>
+    <div id="divR1" class="menuItem right">
+        <img src="../images/Cookies&Cream.WEBP" alt="Cookies and Cream">
     </div>
-    <div id="div3" class="menuItem">
-    
+    <div id="divL2" class="menuItem left">
+        <h2>Strawberry Shortcake</h2>
+        <p>Layers of yellow cake, topped with fresh, juicy strawberries macerated in a hint of sugar. Finished with a cloud of freshly whipped cream</p>
+        <p>$3.50</p>
     </div>
-    <div id="div4" class="menuItem">
-    
-    </div>
-    <div id="div5" class="menuItem">
-    
-    </div>
-    <div id="div6" class="menuItem">
-    
+    <div id="divR2" class="menuItem right">
+        <img src="../images/StrawberryShortcake.WEBP" alt="Strawberry Shortcake">
     </div>
 
 </main>

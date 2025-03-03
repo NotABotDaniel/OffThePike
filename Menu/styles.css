@@ -4,6 +4,10 @@ header {
     height: 2.5em;
 
 }
+footer {
+    padding-top: 2%;
+
+}
 #M_nav {
     display:grid;
 	grid-template-rows:1fr;
@@ -62,58 +66,120 @@ header {
 main {
     display:grid;
 	grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 
 }
 .menuItem {
-    margin: 5px;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: gray;
+    background-color: #e6ffe6;
     color: black;
-    height: 500;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 8%;
+    padding: 5%;
 
 }
-#div1 {
+.left {
+    border-left: 1px solid black;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-left: 3%;
+
+}
+.right {
+    border-right: 1px solid black;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    margin-right: 3%;
+
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+
+}
+
+#divL1 {
     grid-row-start:1;
 	grid-row-end:2;
 	grid-column-start:1;
 	grid-column-end:2;
 
 }
-#div2 {
+#divR1 {
     grid-row-start:1;
 	grid-row-end:2;
 	grid-column-start:2;
 	grid-column-end:3;
 
 }
-#div3 {
+#divL2 {
+    grid-row-start:1;
+	grid-row-end:2;
+	grid-column-start:3;
+	grid-column-end:4;
+
+}
+#divR2 {
+    grid-row-start:1;
+	grid-row-end:2;
+	grid-column-start:4;
+	grid-column-end:5;
+
+}
+#divL3 {
     grid-row-start:2;
 	grid-row-end:3;
 	grid-column-start:1;
 	grid-column-end:2;
 
 }
-#div4 {
+#divR3 {
     grid-row-start:2;
 	grid-row-end:3;
 	grid-column-start:2;
 	grid-column-end:3;
 
 }
-#div5 {
+#divL4 {
+    grid-row-start:2;
+	grid-row-end:3;
+	grid-column-start:3;
+	grid-column-end:4;
+
+}
+#divR4 {
+    grid-row-start:2;
+	grid-row-end:3;
+	grid-column-start:4;
+	grid-column-end:5;
+
+}
+#divL5 {
     grid-row-start:3;
 	grid-row-end:4;
 	grid-column-start:1;
 	grid-column-end:2;
 
 }
-#div6 {
+#divR5 {
     grid-row-start:3;
 	grid-row-end:4;
 	grid-column-start:2;
 	grid-column-end:3;
 
+}
+#divL6 {
+    grid-row-start:3;
+	grid-row-end:4;
+	grid-column-start:3;
+	grid-column-end:4;
+
+}
+#divR6 {
+    grid-row-start:3;
+	grid-row-end:4;
+	grid-column-start:4;
+	grid-column-end:5;
 }
 

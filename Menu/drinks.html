@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
     <title>Off the Pike</title> 
-    <script src="js/init.js"></script>
+    <script src="../js/init.js"></script>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+main {
+    display:grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
 
+}
+    </style>
 </head>
 <body>
 <Nav>
@@ -30,25 +37,34 @@
 
 </div>
 <main>
-    <div id="div1" class="menuItem">
-        <h4>Drink 1</h4>
+    <div id="divL1" class="menuItem left">
+        <h2>Strawberry Freckled Lemonade</h2>
+        <p>Made of Strawberries (probably)</p>
     </div>
-    <div id="div2" class="menuItem">
-        <h4>Drink 2</h4>
+    <div id="divR1" class="menuItem right">
+        <img src="../images/Drinks.PNG" alt="Strawberry Lemonade">
     </div>
-    <div id="div3" class="menuItem">
-    
+    <div id="divL2" class="menuItem left">
+        <h2>Coke</h2>
+        <p>The classic soda</p>
     </div>
-    <div id="div4" class="menuItem">
-    
+    <div id="divR2" class="menuItem right">
+        <img src="../images/CokeLogo.png" alt="Coke Logo">
     </div>
-    <div id="div5" class="menuItem">
-    
+    <div id="divL3" class="menuItem left">
+        <h2>Diet Coke</h2>
+        <p>To make you feel better about yourself</p>
     </div>
-    <div id="div6" class="menuItem">
-    
+    <div id="divR3" class="menuItem right">
+        <img src="../images/DietCokeLogo.png" alt="Diet Coke Logo">
     </div>
-
+    <div id="divL4" class="menuItem left">
+        <h2>Sprite</h2>
+        <p>We've all put it in a water cup at some point</p>
+    </div>
+    <div id="divR4" class="menuItem right">
+        <img src="../images/SpriteLogo.jpeg" alt="Sprite Logo">
+    </div>
 </main>
 </body>
 </html>

@@ -37,39 +37,39 @@ Nav a{
     gap: 8px;
     width: 60em; 
 }
-	#himage{
-		width: 100%;
+#himage{
+	width: 100%;
 }
 
-	#H_imgDiv{
-    		grid-area: 1/10/10/20;
+#H_imgDiv{
+		grid-area: 1/10/10/20;
 }
-	#H_text{
-    		grid-area: 1/1/10/10;
-    		Background-color: white;
-    		border: 1px solid silver;
-    		padding: 2em;
-    		font-size: large;
-}
-	.h_photos{
-		 width: 28%;
- 		box-shadow: 10px, 10px;
-}
-
-	.bar{
-    		background-color: purple;
-    		height: 50px;
-}
-	#quote{
-		grid-area: 8/11/14/19;
-		background-color: pink;
-		padding: 1em;
+#H_text{
+		grid-area: 1/1/10/10;
+		Background-color: white;
 		border: 1px solid silver;
-		font-size: x-large;
-		margin: 0;
+		padding: 2em;
+		font-size: large;
 }
-	#h_dish{
-		grid-area: 7/1/15/12;
+.h_photos{
+	width: 28%;
+	box-shadow: 10px, 10px;
+}
+
+.bar{
+		background-color: purple;
+		height: 50px;
+}
+#quote{
+	grid-area: 8/11/14/19;
+	background-color: pink;
+	padding: 1em;
+	border: 1px solid silver;
+	font-size: x-large;
+	margin: 0;
+}
+#h_dish{
+	grid-area: 7/1/15/12;
 }
 
 
