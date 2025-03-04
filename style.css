@@ -18,7 +18,7 @@ Nav a{
     background-color: purple;
     font-size: 18px;
     float: left;
-    padding: 18px 16px;
+    padding: 10px 18px;
     display: block;
     text-align: center;
 }
@@ -26,6 +26,11 @@ Nav a{
     grid-column: 1/2;
     grid-row: 1/2;
 }
+.border{
+    border: black 3px solid;
+    border-radius: 5px;
+}
+
 
 /* Homepage styles: */
 
@@ -85,16 +90,19 @@ Nav a{
     gap: 10px;
 }
 
+.AU_border {
+    border: black 5px solid;
+    border-radius: 7px;
+
+}
+
+/* More Stuff */
 
 header {
     text-align: center;
     font-size: 3em;
     height: 2.5em;
 
-}
-.border{
-    border: black 5px solid;
-    border-radius: 7px;
 }
 h1{
     text-align: center;    
