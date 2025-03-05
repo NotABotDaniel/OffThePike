@@ -65,7 +65,7 @@ footer {
 }
 main {
     display:grid;
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: 1fr 4fr 4fr 4fr;
 	grid-template-columns: repeat(4, 1fr);
 
 }
@@ -74,7 +74,7 @@ main {
     color: black;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-top: 8%;
+    margin-bottom: 8%;
     padding: 5%;
 
 }
@@ -98,87 +98,96 @@ img {
     border-radius: 50%;
 
 }
-
-#divL1 {
+#topDiv {
     grid-row-start:1;
 	grid-row-end:2;
+	grid-column-start:1;
+	grid-column-end:5; 
+
+    text-align: center;
+    font-size: 1.5em;
+
+}
+#divL1 {
+    grid-row-start:2;
+	grid-row-end:3;
 	grid-column-start:1;
 	grid-column-end:2;
 
 }
 #divR1 {
-    grid-row-start:1;
-	grid-row-end:2;
+    grid-row-start:2;
+	grid-row-end:3;
 	grid-column-start:2;
 	grid-column-end:3;
 
 }
 #divL2 {
-    grid-row-start:1;
-	grid-row-end:2;
+    grid-row-start:2;
+	grid-row-end:3;
 	grid-column-start:3;
 	grid-column-end:4;
 
 }
 #divR2 {
-    grid-row-start:1;
-	grid-row-end:2;
+    grid-row-start:2;
+	grid-row-end:3;
 	grid-column-start:4;
 	grid-column-end:5;
 
 }
 #divL3 {
-    grid-row-start:2;
-	grid-row-end:3;
+    grid-row-start:3;
+	grid-row-end:4;
 	grid-column-start:1;
 	grid-column-end:2;
 
 }
 #divR3 {
-    grid-row-start:2;
-	grid-row-end:3;
+    grid-row-start:3;
+	grid-row-end:4;
 	grid-column-start:2;
 	grid-column-end:3;
 
 }
 #divL4 {
-    grid-row-start:2;
-	grid-row-end:3;
+    grid-row-start:3;
+	grid-row-end:4;
 	grid-column-start:3;
 	grid-column-end:4;
 
 }
 #divR4 {
-    grid-row-start:2;
-	grid-row-end:3;
+    grid-row-start:3;
+	grid-row-end:4;
 	grid-column-start:4;
 	grid-column-end:5;
 
 }
 #divL5 {
-    grid-row-start:3;
-	grid-row-end:4;
+    grid-row-start:4;
+	grid-row-end:5;
 	grid-column-start:1;
 	grid-column-end:2;
 
 }
 #divR5 {
-    grid-row-start:3;
-	grid-row-end:4;
+    grid-row-start:4;
+	grid-row-end:5;
 	grid-column-start:2;
 	grid-column-end:3;
 
 }
 #divL6 {
-    grid-row-start:3;
-	grid-row-end:4;
+    grid-row-start:4;
+	grid-row-end:5;
 	grid-column-start:3;
 	grid-column-end:4;
 
 }
 #divR6 {
-    grid-row-start:3;
-	grid-row-end:4;
+    grid-row-start:4;
+	grid-row-end:5;
 	grid-column-start:4;
 	grid-column-end:5;
 }
